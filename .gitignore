@@ -1,53 +1,24 @@
-# Node.js dependencies
-server/node_modules/
-
-# Log files
+# Logs
+logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Environment files
-.env
-.env.local
-.env.*.local
+node_modules
+dist
+dist-ssr
+*.local
 
-# npm / yarn lock files (if you're using Yarn, include `yarn.lock` too)
-package-lock.json
-yarn.lock
-
-# Build directories
-/dist
-/build
-
-# IDE or editor specific files
-.vscode/
-.idea/
-
-# OS generated files
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-Thumbs.db
-
-# Test coverage
-/coverage
-
-# Optional: Debugger and other local config files
-/.vscode/
-*.swp
-
-# Docker-related
-docker-compose.override.yml
-.docker/
-
-# Generated files (temporary, cache, etc.)
-*.pid
-*.seed
-*.bak
-*.tmp
-
-# Documentation
-*.pdf
-
-# AWS or other cloud-related files
-*.pem
-*.key
-
-# Other potential sensitive files or artifacts
-*.tgz
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
